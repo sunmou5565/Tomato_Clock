@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "electron": "^31.1.0"
+  },
+  "name": "tomatoclock",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.tcsun.pkg",
+    "productName": "Tomato-Clock",
+    "win": {
+      "target": "portable",
+      "icon": "./MainFile/Image/ICON.ico"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
